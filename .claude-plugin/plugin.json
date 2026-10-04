@@ -1,0 +1,14 @@
+{
+  "name": "fuxux",
+  "displayName": "Fuxux",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish social media posts to 12 platforms from Claude, and manage your posting queue. Connects to your Fuxux account by sign-in; no API key needed.",
+  "author": {
+    "name": "Fuxux",
+    "email": "support@fuxux.com",
+    "url": "https://www.fuxux.com"
+  },
+  "homepage": "https://www.fuxux.com/mcp",
+  "license": "MIT",
+  "keywords": ["social media", "scheduling", "publishing", "instagram", "linkedin", "tiktok", "youtube", "bluesky", "threads"]
+}

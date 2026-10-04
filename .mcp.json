@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fuxux": {
+      "type": "http",
+      "url": "https://www.fuxux.com/api/mcp"
+    }
+  }
+}
