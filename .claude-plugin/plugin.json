@@ -9,7 +9,11 @@
     "url": "https://www.fuxux.com"
   },
   "homepage": "https://www.fuxux.com/mcp",
+  "repository": "https://github.com/abogitoff/fuxux-claude-plugin",
+  "documentationUrl": "https://www.fuxux.com/mcp/docs",
+  "supportUrl": "https://www.fuxux.com/support",
   "privacyPolicyUrl": "https://www.fuxux.com/privacy",
+  "termsOfServiceUrl": "https://www.fuxux.com/terms",
   "license": "MIT",
   "keywords": ["social media", "scheduling", "publishing", "instagram", "linkedin", "tiktok", "youtube", "bluesky", "threads"]
 }
