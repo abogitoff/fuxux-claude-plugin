@@ -9,6 +9,7 @@
     "url": "https://www.fuxux.com"
   },
   "homepage": "https://www.fuxux.com/mcp",
+  "privacyPolicyUrl": "https://www.fuxux.com/privacy",
   "license": "MIT",
   "keywords": ["social media", "scheduling", "publishing", "instagram", "linkedin", "tiktok", "youtube", "bluesky", "threads"]
 }
