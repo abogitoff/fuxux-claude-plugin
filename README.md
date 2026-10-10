@@ -28,6 +28,13 @@ You can remove Claude's access at any time in Fuxux under **Settings → Connect
 - "Write a post announcing our new pricing page, one version for LinkedIn and one for Bluesky, and save both as drafts."
 - "Move tomorrow's Instagram post to Friday at 9 am."
 
+## Other assistants
+
+The same server and skill work outside Claude.
+
+- **Gemini CLI:** `gemini extensions install https://github.com/abogitoff/fuxux-claude-plugin`, then start `gemini` and approve the Fuxux sign-in.
+- **Any other MCP client:** add `https://www.fuxux.com/api/mcp` as a remote server. Setup steps per assistant are at https://www.fuxux.com/agents.
+
 ## Help
 
 - Setup guide: https://www.fuxux.com/mcp/docs

@@ -1,0 +1,10 @@
+{
+  "name": "fuxux",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish social media posts to 12 platforms with Fuxux, and check your posting queue. Sign in with your Fuxux account; no API key needed.",
+  "mcpServers": {
+    "fuxux": {
+      "httpUrl": "https://www.fuxux.com/api/mcp"
+    }
+  }
+}
