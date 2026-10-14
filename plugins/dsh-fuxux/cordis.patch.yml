@@ -1,0 +1,31 @@
+# Rows added by the dsh-fuxux bundle.
+#
+#   fuxux      - this package. Reads the Fuxux API key (FUXUX_API_KEY by default),
+#                provides ctx.fuxux (endpoint + Authorization header) and registers
+#                the `fuxux` skill.
+#   fuxux-mcp  - an @deepseek-ai/dsh-mcp-client instance that connects to the Fuxux
+#                MCP server over streamable HTTP; its tools appear as mcp__fuxux__*.
+#
+# To change a setting, override the `fuxux` row in your profile's cordis.patch.yml:
+#   apiKeyEnv  environment variable with the key (default FUXUX_API_KEY)
+#   apiKey     inline key (prefer the environment variable or $DSH_HOME/.env)
+#   skill      register the `fuxux` skill (default true)
+- insert:
+    - id: fuxux
+      name: dsh-fuxux
+      config:
+        apiKeyEnv: FUXUX_API_KEY
+    - id: fuxux-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      inject: [fuxux]
+      config:
+        transport: streamable-http
+        serverName: fuxux
+        url: !!js ctx.fuxux.url
+        headers: !!js ctx.fuxux.headers
+        failOnStartupError: false
+        reconnect:
+          enabled: true
+          initialDelayMs: 2000
+          maxDelayMs: 30000
+          maxAttempts: 10

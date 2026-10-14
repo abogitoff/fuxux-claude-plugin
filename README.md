@@ -34,6 +34,7 @@ The same server and skill work outside Claude.
 
 - **Gemini CLI:** `gemini extensions install https://github.com/abogitoff/fuxux-claude-plugin`, then run `/mcp auth fuxux` inside `gemini` and approve the Fuxux sign-in. Guide: https://www.fuxux.com/gemini
 - **Cursor:** install the Fuxux plugin, create an API key in Fuxux (Settings → API keys, needs the API add-on on a paid plan) and set it as the environment variable `FUXUX_API_KEY`, then restart Cursor. Guide: https://www.fuxux.com/cursor
+- **DeepSeek Harness:** `dsh plugin --profile web add "github:abogitoff/fuxux-claude-plugin#path:/plugins/dsh-fuxux"`, then set `FUXUX_API_KEY` to a Fuxux API key. See [plugins/dsh-fuxux](plugins/dsh-fuxux).
 - **Any other MCP client:** add `https://www.fuxux.com/api/mcp` as a remote server. Setup steps per assistant are at https://www.fuxux.com/agents.
 
 ## Help

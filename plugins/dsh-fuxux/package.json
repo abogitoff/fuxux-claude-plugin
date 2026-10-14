@@ -1,0 +1,61 @@
+{
+  "name": "dsh-fuxux",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin for Fuxux: connects the agent to the Fuxux MCP server to list connected social accounts and draft, schedule or publish posts to 12 platforms.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "fuxux",
+    "mcp",
+    "social-media",
+    "social-media-scheduler",
+    "scheduling"
+  ],
+  "author": {
+    "name": "Fuxux",
+    "email": "support@fuxux.com",
+    "url": "https://www.fuxux.com"
+  },
+  "homepage": "https://github.com/abogitoff/fuxux-claude-plugin/tree/main/plugins/dsh-fuxux#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abogitoff/fuxux-claude-plugin.git",
+    "directory": "plugins/dsh-fuxux"
+  },
+  "bugs": {
+    "url": "https://github.com/abogitoff/fuxux-claude-plugin/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
