@@ -1,0 +1,31 @@
+{
+  "name": "fuxux",
+  "displayName": "Fuxux",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish social media posts to 12 platforms (Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Discord, Kick, Twitch) from Cursor, and manage your posting queue in Fuxux.",
+  "author": {
+    "name": "Fuxux",
+    "email": "support@fuxux.com"
+  },
+  "homepage": "https://www.fuxux.com/cursor",
+  "repository": "https://github.com/abogitoff/fuxux-claude-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "fuxux",
+    "social-media",
+    "scheduling",
+    "publishing",
+    "marketing",
+    "instagram",
+    "linkedin",
+    "tiktok",
+    "youtube",
+    "bluesky",
+    "threads",
+    "x"
+  ],
+  "skills": [
+    "./skills/social-media-posts"
+  ]
+}

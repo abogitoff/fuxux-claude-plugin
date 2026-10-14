@@ -1,0 +1,9 @@
+{
+  "fuxux": {
+    "type": "http",
+    "url": "https://www.fuxux.com/api/mcp",
+    "headers": {
+      "Authorization": "Bearer ${env:FUXUX_API_KEY}"
+    }
+  }
+}
